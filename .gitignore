@@ -1,0 +1,8 @@
+target
+pkg
+logs/*.log
+logs/*.err
+logs/*.out
+logs/*.pid
+src/wafer-session-server/wafer-session-server
+bin/*

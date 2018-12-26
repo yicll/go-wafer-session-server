@@ -1,0 +1,93 @@
+2018/12/14 19:53:12.147 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/14 19:59:45.058 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/14 19:59:45.063 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/14 19:59:45.063 [C] [asm_amd64.s:1333]  ListenAndServe:  listen tcp :4321: bind: address already in use
+2018/12/14 20:00:23.506 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/14 20:00:23.506 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/14 20:00:23.506 [C] [asm_amd64.s:1333]  ListenAndServe:  listen tcp :4321: bind: address already in use
+2018/12/14 20:00:55.070 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/14 20:00:55.071 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/14 20:00:55.071 [C] [asm_amd64.s:1333]  ListenAndServe:  listen tcp :4321: bind: address already in use
+2018/12/14 20:01:04.990 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/14 20:01:05.014 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/14 20:01:05.015 [C] [asm_amd64.s:1333]  ListenAndServe:  listen tcp :4321: bind: address already in use
+2018/12/14 20:11:58.656 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/14 20:11:58.661 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/14 20:11:58.662 [C] [asm_amd64.s:1333]  ListenAndServe:  listen tcp :4321: bind: address already in use
+2018/12/14 20:13:37.095 [I] [main.go:158]  request body:  {"version":1,"componentName":"MA","interface":{"interfaceName":"qcloud.cam.initapp","appid":"wxf4daafbf1c76d304","para":{"secret":"b37e99e94c6d17e5f88842ebb58dace4"}}} 
+2018/12/14 20:13:37.095 [I] [main.go:39]  server exec time: 0 ms 
+2018/12/14 20:13:37.096 [E] [main.go:42]  response has error, info:  code: 1010, message: INTERFACENAME_PARA_ERR 
+2018/12/14 20:13:37.096 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|   1.058547ms|   match|[46m POST    [0m /     r:/
+2018/12/14 20:17:16.396 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/14 20:17:16.396 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/14 20:17:16.397 [C] [asm_amd64.s:1333]  ListenAndServe:  listen tcp :4321: bind: address already in use
+2018/12/14 20:18:19.634 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/14 20:18:24.299 [I] [main.go:158]  request body:  {"version":1,"componentName":"MA","interface":{"interfaceName":"qcloud.cam.initapp","appid":"wxf4daafbf1c76d304","para":{"secret":"b37e99e94c6d17e5f88842ebb58dace4"}}} 
+2018/12/14 20:18:24.299 [I] [main.go:39]  server exec time: 0 ms 
+2018/12/14 20:18:24.299 [E] [main.go:42]  response has error, info:  code: 1010, message: INTERFACENAME_PARA_ERR 
+2018/12/14 20:18:24.299 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|     620.15µs|   match|[46m POST    [0m /     r:/
+2018/12/14 20:19:08.257 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/14 20:19:11.433 [I] [main.go:158]  request body:  {"version":1,"componentName":"MA","interface":{"interfaceName":"qcloud.cam.initapp","appid":"wxf4daafbf1c76d304","para":{"secret":"b37e99e94c6d17e5f88842ebb58dace4"}}} 
+2018/12/14 20:19:11.433 [I] [main.go:39]  server exec time: 0 ms 
+2018/12/14 20:19:11.433 [E] [main.go:42]  response has error, info:  code: 1010, message: INTERFACENAME_PARA_ERR 
+2018/12/14 20:19:11.434 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    660.192µs|   match|[46m POST    [0m /     r:/
+2018/12/14 20:20:49.130 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/14 20:20:55.513 [I] [main.go:158]  request body:  {"version":1,"componentName":"MA","interface":{"interfaceName":"qcloud.cam.initapp","appid":"wxf4daafbf1c76d304","para":{"secret":"b37e99e94c6d17e5f88842ebb58dace4"}}} 
+2018/12/14 20:20:55.513 [I] [main.go:39]  server exec time: 0 ms 
+2018/12/14 20:20:55.513 [E] [main.go:42]  response has error, info:  code: 1010, message: INTERFACENAME_PARA_ERR 
+2018/12/14 20:20:55.513 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    582.447µs|   match|[46m POST    [0m /     r:/
+2018/12/14 20:21:30.845 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/14 20:22:31.423 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/14 20:22:35.026 [I] [main.go:158]  request body:  {"version":1,"componentName":"MA","interface":{"interfaceName":"qcloud.cam.initapp","appid":"wxf4daafbf1c76d304","para":{"secret":"b37e99e94c6d17e5f88842ebb58dace4"}}} 
+2018/12/14 20:22:35.026 [I] [main.go:39]  server exec time: 0 ms 
+2018/12/14 20:22:35.026 [E] [main.go:42]  response has error, info:  code: 1010, message: INTERFACENAME_PARA_ERR 
+2018/12/14 20:22:35.026 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    817.099µs|   match|[46m POST    [0m /     r:/
+2018/12/14 20:24:26.785 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/14 20:24:30.406 [I] [main.go:158]  request body:  {"version":1,"componentName":"MA","interface":{"interfaceName":"qcloud.cam.initapp","appid":"wxf4daafbf1c76d304","para":{"secret":"b37e99e94c6d17e5f88842ebb58dace4"}}} 
+2018/12/14 20:24:30.406 [I] [main.go:39]  server exec time: 0 ms 
+2018/12/14 20:24:30.406 [E] [main.go:42]  response has error, info:  code: 1010, message: INTERFACENAME_PARA_ERR 
+2018/12/14 20:24:30.406 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    565.113µs|   match|[46m POST    [0m /     r:/
+2018/12/14 20:24:59.412 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/14 20:25:05.626 [I] [main.go:158]  request body:  {"version":1,"componentName":"MA","interface":{"interfaceName":"qcloud.cam.initapp","appid":"wxf4daafbf1c76d304","para":{"secret":"b37e99e94c6d17e5f88842ebb58dace4"}}} 
+2018/12/14 20:25:05.626 [I] [main.go:39]  server exec time: 0 ms 
+2018/12/14 20:25:05.626 [E] [main.go:42]  response has error, info:  code: 1010, message: INTERFACENAME_PARA_ERR 
+2018/12/14 20:25:05.626 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    598.647µs|   match|[46m POST    [0m /     r:/
+2018/12/14 20:25:40.926 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/14 20:26:38.026 [D] [main.go:59]  haha 
+2018/12/14 20:26:38.033 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/14 20:26:53.055 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/14 20:27:20.117 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/14 20:27:23.542 [I] [main.go:158]  request body:  {"version":1,"componentName":"MA","interface":{"interfaceName":"qcloud.cam.initapp","appid":"wxf4daafbf1c76d304","para":{"secret":"b37e99e94c6d17e5f88842ebb58dace4"}}} 
+2018/12/14 20:27:23.542 [I] [main.go:39]  server exec time: 0 ms 
+2018/12/14 20:27:23.542 [E] [main.go:42]  response has error, info:  code: 1010, message: INTERFACENAME_PARA_ERR 
+2018/12/14 20:27:23.542 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    591.368µs|   match|[46m POST    [0m /     r:/
+2018/12/14 20:27:41.580 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/17 16:32:14.446 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/17 16:32:29.563 [I] [main.go:163]  request body:  {"version":1,"componentName":"MA","interface":{"interfaceName":"qcloud.cam.initapp","appid":"wxf4daafbf1c76d304","para":{"secret":"b37e99e94c6d17e5f88842ebb58dace4"}}} 
+2018/12/17 16:32:29.563 [I] [main.go:172]  interface name:  qcloud.cam.initapp 
+2018/12/17 16:32:29.563 [D] [main.go:207]  initapp 
+2018/12/17 16:32:29.563 [D] [main.go:156]  appid: wxf4daafbf1c76d304, secret: b37e99e94c6d17e5f88842ebb58dace4 
+2018/12/17 16:32:29.578 [I] [main.go:39]  server exec time: 15 ms 
+2018/12/17 16:32:29.578 [I] [main.go:46]  response data: {Id: Skey: UserInfo:{OpenId: UnionId: NickName: Gender:0 Language: City: Province: Country: AvatarUrl:} Duration:0} 
+2018/12/17 16:32:29.579 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|  16.039182ms|   match|[46m POST    [0m /     r:/
+2018/12/17 16:33:26.462 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/17 16:33:40.298 [I] [main.go:163]  request body:  {"version":1,"componentName":"MA","interface":{"interfaceName":"qcloud.cam.initapp","appid":"wxf4daafbf1c76d304","para":{"secret":"b37e99e94c6d17e5f88842ebb58dace4"}}} 
+2018/12/17 16:33:40.298 [I] [main.go:172]  interface name:  qcloud.cam.initapp 
+2018/12/17 16:33:40.298 [D] [main.go:207]  initapp 
+2018/12/17 16:33:40.298 [D] [main.go:156]  appid: wxf4daafbf1c76d304, secret: b37e99e94c6d17e5f88842ebb58dace4 
+2018/12/17 16:33:40.298 [I] [main.go:39]  server exec time: 0 ms 
+2018/12/17 16:33:40.298 [I] [main.go:46]  response data: {Id: Skey: UserInfo:{OpenId: UnionId: NickName: Gender:0 Language: City: Province: Country: AvatarUrl:} Duration:0} 
+2018/12/17 16:33:40.298 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|    841.015µs|   match|[46m POST    [0m /     r:/
+2018/12/17 16:45:05.577 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/17 16:45:07.543 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/17 16:45:15.116 [I] [main.go:163]  request body:  {"version":1,"componentName":"MA","interface":{"interfaceName":"qcloud.cam.initapp","appid":"wxf4daafbf1c76d304","para":{"secret":"b37e99e94c6d17e5f88842ebb58dace4"}}} 
+2018/12/17 16:45:15.116 [I] [main.go:172]  interface name:  qcloud.cam.initapp 
+2018/12/17 16:45:15.116 [D] [main.go:207]  initapp 
+2018/12/17 16:45:15.116 [D] [main.go:156]  appid: wxf4daafbf1c76d304, secret: b37e99e94c6d17e5f88842ebb58dace4 
+2018/12/17 16:45:15.160 [D] [model.go:181]  add new appinfo to db, id:  0 
+2018/12/17 16:45:15.160 [I] [main.go:39]  server exec time: 43 ms 
+2018/12/17 16:45:15.160 [I] [main.go:46]  response data: {Id: Skey: UserInfo:{OpenId: UnionId: NickName: Gender:0 Language: City: Province: Country: AvatarUrl:} Duration:0} 
+2018/12/17 16:45:15.160 [D] [server.go:2741]  |      127.0.0.1|[42m 200 [0m|  44.404112ms|   match|[46m POST    [0m /     r:/
+2018/12/17 16:47:05.438 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/17 16:49:09.467 [I] [asm_amd64.s:1333]  http server Running on http://:4321
+2018/12/17 18:06:50.820 [I] [asm_amd64.s:1333]  http server Running on http://:4321
