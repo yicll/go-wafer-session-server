@@ -429,7 +429,7 @@ curl -i -d'{"version":1,"componentName":"MA","interface":{"interfaceName":"qclou
   </tbody>
 </table>
 
-建数据库的详细 SQL 脚本请参考 [db.sql](http://git.domob-inc.cn/mp-lib/go-wafer-session-server/blob/master/src/wafer-session-server/sql/db.sql)
+建数据库的详细 SQL 脚本请参考 [db.sql](https://github.com/yicll/go-wafer-session-server/tree/master/src/wafer-session-server/sql/db.sql)
 
 ## 老版本wafer-session-server数据迁移
 
