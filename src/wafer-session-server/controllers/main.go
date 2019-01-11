@@ -4,6 +4,8 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
+	"io/ioutil"
+	"net/http"
 	"time"
 
 	"wafer-session-server/common"
@@ -11,7 +13,6 @@ import (
 	"wafer-session-server/models"
 
 	"github.com/astaxie/beego"
-	"github.com/astaxie/beego/httplib"
 	"github.com/xlstudio/wxbizdatacrypt"
 )
 
@@ -57,12 +58,26 @@ func (this *MainController) getIdSkey(appid string, code string, encryptData str
 
 	url := fmt.Sprintf("https://api.weixin.qq.com/sns/jscode2session?appid=%s&secret=%s&js_code=%s&grant_type=authorization_code",
 		appinfo.Appid, appinfo.Secret, code)
-	req := httplib.Get(url)
+	req, err := http.Get(url)
+	if err != nil {
+		beego.Error("request url: ", url, "error, message: ", err.Error())
+		err = common.ServerError{common.RETURN_CODE_MA_WEIXIN_NET_ERR, "MA_WEIXIN_NET_ERR"}
+		return
+	}
+
+	defer req.Body.Close()
+	body, err := ioutil.ReadAll(req.Body)
+	if err != nil {
+		beego.Error("read reponse body error, message: ", err.Error())
+		err = common.ServerError{common.RETURN_CODE_MA_WEIXIN_NET_ERR, "MA_WEIXIN_NET_ERR"}
+		return
+	}
 
 	var resp models.WxResponseData
-	err = req.ToJSON(&resp)
+	//err = req.ToJSON(&resp)
+	err = json.Unmarshal(body, &resp)
 	if err != nil {
-		beego.Error("request url: ", url, " error, message: ", err.Error())
+		beego.Error("unmarshal json to struct error, message: ", err.Error())
 		err = common.ServerError{common.RETURN_CODE_MA_WEIXIN_NET_ERR, "MA_WEIXIN_NET_ERR"}
 		return
 	}
